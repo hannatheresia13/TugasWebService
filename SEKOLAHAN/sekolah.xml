@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sekolah xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sekolah.xsd">
+	<siswa>
+	<nis kode="001">1231</nis>
+	<nama>Hanna</nama>
+	<kelas>
+		<jurusan>IPA</jurusan>
+		<kodekelas>2</kodekelas>
+		</kelas>
+	<agama>katolik</agama>
+	<alamat>medan</alamat>
+</siswa>
+	<siswa>
+	<nis kode="001">1232</nis>
+	<nama>Pebri</nama>
+	<kelas>
+		<jurusan>IPA</jurusan>
+		<kodekelas>2</kodekelas>
+		</kelas>
+	<agama>katolik</agama>
+	<alamat>medan</alamat>
+</siswa>
+	<siswa>
+	<nis kode="001">1233</nis>
+	<nama>Arya</nama>
+	<kelas>
+		<jurusan>IPA</jurusan>
+		<kodekelas>2</kodekelas>
+		</kelas>
+	<agama>katolik</agama>
+	<alamat>medan</alamat>
+</siswa>
+	<siswa>
+	<nis kode="001">1234</nis>
+	<nama>Kesya</nama>
+	<kelas>
+		<jurusan>IPA</jurusan>
+		<kodekelas>2</kodekelas>
+		</kelas>
+	<agama>katolik</agama>
+	<alamat>medan</alamat>
+</siswa>
+	<siswa>
+	<nis kode="001">1235</nis>
+	<nama>Mariani</nama>
+	<kelas>
+		<jurusan>IPA</jurusan>
+		<kodekelas>2</kodekelas>
+		</kelas>
+	<agama>katolik</agama>
+	<alamat>medan</alamat>
+</siswa>
+</sekolah>

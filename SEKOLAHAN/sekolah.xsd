@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="sekolah">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="siswa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="siswa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nis" minOccurs="1"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="kelas"/>
+                <xs:element ref="agama"/>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nis">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="kode" use="required" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama" type="xs:NCName"/>
+    <xs:element name="kelas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="jurusan"/>
+                <xs:element ref="kodekelas"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="jurusan" type="xs:NCName"/>
+    <xs:element name="kodekelas" type="xs:integer"/>
+    <xs:element name="agama" type="xs:NCName"/>
+    <xs:element name="alamat" type="xs:NCName"/>
+</xs:schema>
